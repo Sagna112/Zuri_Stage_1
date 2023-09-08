@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+
+[data-testid=slackUserName]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font: 1.5rem sans-serif;
+    min-height: 100vh;
+    background-color: #475569;
+     background-image: radial-gradient(whitesmoke,
+     #475569);
+     display:flex;
+     flex-direction:column;
+
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.card {
+    scroll-margin-top: 8rem;
+    width: min(100%, 350px);
+    background-color: #cbd5e1;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding:  1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card figure {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.card img {
+    border: 5px double #333;
+    border-radius: 50%;
+}
+
+
+
